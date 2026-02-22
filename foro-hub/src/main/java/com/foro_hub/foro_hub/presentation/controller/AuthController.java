@@ -1,8 +1,9 @@
 package com.foro_hub.foro_hub.presentation.controller;
 
-import com.foro_hub.application.service.RegisterUserService;
-import com.foro_hub.domain.model.User;
-import com.foro_hub.presentation.dto.UserDTO;
+import com.foro_hub.foro_hub.application.service.RegisterUserService;
+import com.foro_hub.foro_hub.domain.model.User;
+import com.foro_hub.foro_hub.presentation.dto.UserDTO;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

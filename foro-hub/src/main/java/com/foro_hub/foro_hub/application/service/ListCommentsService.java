@@ -1,7 +1,7 @@
 package com.foro_hub.foro_hub.application.service;
 
-import com.foro_hub.domain.model.Comment;
-import com.foro_hub.domain.repository.CommentRepository;
+import com.foro_hub.foro_hub.domain.model.Comment;
+import com.foro_hub.foro_hub.domain.repository.CommentRepository;
 
 import java.util.List;
 

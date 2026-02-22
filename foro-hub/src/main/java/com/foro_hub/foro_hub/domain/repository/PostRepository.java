@@ -1,6 +1,7 @@
 package com.foro_hub.foro_hub.domain.repository;
 
-import com.foro_hub.domain.model.Post;
+import com.foro_hub.foro_hub.domain.model.Post;
+
 import java.util.List;
 import java.util.Optional;
 

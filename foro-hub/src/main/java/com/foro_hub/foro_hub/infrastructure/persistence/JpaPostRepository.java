@@ -1,7 +1,8 @@
 package com.foro_hub.foro_hub.infrastructure.persistence;
 
-import com.foro_hub.domain.model.Post;
-import com.foro_hub.domain.repository.PostRepository;
+import com.foro_hub.foro_hub.domain.model.Post;
+import com.foro_hub.foro_hub.domain.repository.PostRepository;
+
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

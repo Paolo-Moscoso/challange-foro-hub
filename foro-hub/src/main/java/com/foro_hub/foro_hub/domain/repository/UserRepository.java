@@ -1,6 +1,7 @@
 package com.foro_hub.foro_hub.domain.repository;
 
-import com.foro_hub.domain.model.User;
+import com.foro_hub.foro_hub.domain.model.User;
+
 import java.util.Optional;
 
 public interface UserRepository {

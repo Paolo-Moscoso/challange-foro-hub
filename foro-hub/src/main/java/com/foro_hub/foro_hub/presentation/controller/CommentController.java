@@ -1,16 +1,17 @@
 package com.foro_hub.foro_hub.presentation.controller;
 
 
-import com.foro_hub.application.service.CreateCommentService;
-import com.foro_hub.application.service.ListCommentsService;
-import com.foro_hub.application.service.UpdateCommentService;
-import com.foro_hub.application.service.DeleteCommentService;
-import com.foro_hub.domain.model.Comment;
-import com.foro_hub.domain.model.Post;
-import com.foro_hub.domain.model.User;
+import com.foro_hub.foro_hub.application.service.CreateCommentService;
+import com.foro_hub.foro_hub.application.service.ListCommentsService;
+import com.foro_hub.foro_hub.application.service.UpdateCommentService;
+import com.foro_hub.foro_hub.application.service.DeleteCommentService;
+import com.foro_hub.foro_hub.domain.model.Comment;
+import com.foro_hub.foro_hub.domain.model.Post;
+import com.foro_hub.foro_hub.domain.model.User;
 import com.foro_hub.domain.repository.PostRepository;
-import com.foro_hub.domain.repository.UserRepository;
-import com.foro_hub.presentation.dto.CommentDTO;
+import com.foro_hub.foro_hub.domain.repository.UserRepository;
+import com.foro_hub.foro_hub.presentation.dto.CommentDTO;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

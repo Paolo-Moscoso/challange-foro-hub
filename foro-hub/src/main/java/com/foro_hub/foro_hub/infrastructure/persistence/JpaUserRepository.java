@@ -1,9 +1,10 @@
 package com.foro_hub.foro_hub.infrastructure.persistence;
 
 
-import com.foro_hub.domain.model.Role;
-import com.foro_hub.domain.model.User;
-import com.foro_hub.domain.repository.UserRepository;
+import com.foro_hub.foro_hub.domain.model.Role;
+import com.foro_hub.foro_hub.domain.model.User;
+import com.foro_hub.foro_hub.domain.repository.UserRepository;
+
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;

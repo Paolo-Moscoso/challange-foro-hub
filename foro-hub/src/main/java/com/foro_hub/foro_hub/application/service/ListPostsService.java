@@ -1,7 +1,7 @@
 package com.foro_hub.foro_hub.application.service;
 
-import com.foro_hub.domain.model.Post;
-import com.foro_hub.domain.repository.PostRepository;
+import com.foro_hub.foro_hub.domain.model.Post;
+import com.foro_hub.foro_hub.domain.repository.PostRepository;
 
 import java.util.List;
 

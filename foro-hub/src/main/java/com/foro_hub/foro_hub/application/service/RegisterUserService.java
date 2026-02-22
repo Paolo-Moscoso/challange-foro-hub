@@ -1,8 +1,8 @@
 package com.foro_hub.foro_hub.application.service;
 
-import com.foro_hub.domain.model.Role;
-import com.foro_hub.domain.model.User;
-import com.foro_hub.domain.repository.UserRepository;
+import com.foro_hub.foro_hub.domain.model.Role;
+import com.foro_hub.foro_hub.domain.model.User;
+import com.foro_hub.foro_hub.domain.repository.UserRepository;
 
 import java.util.HashSet;
 import java.util.Optional;

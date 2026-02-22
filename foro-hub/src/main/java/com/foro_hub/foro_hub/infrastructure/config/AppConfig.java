@@ -1,7 +1,8 @@
 package com.foro_hub.foro_hub.infrastructure.config;
 
-import com.foro_hub.application.service.RegisterUserService;
-import com.foro_hub.domain.repository.UserRepository;
+import com.foro_hub.foro_hub.application.service.RegisterUserService;
+import com.foro_hub.foro_hub.domain.repository.UserRepository;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

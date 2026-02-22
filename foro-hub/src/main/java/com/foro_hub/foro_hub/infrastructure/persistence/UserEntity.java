@@ -1,6 +1,5 @@
 package com.foro_hub.foro_hub.infrastructure.persistence;
 
-
 import jakarta.persistence.*;
 import java.util.Set;
 
