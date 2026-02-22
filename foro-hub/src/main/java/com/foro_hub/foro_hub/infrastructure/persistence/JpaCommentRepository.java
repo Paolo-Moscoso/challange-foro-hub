@@ -1,6 +1,8 @@
 package com.foro_hub.foro_hub.infrastructure.persistence;
 
 import com.foro_hub.foro_hub.domain.model.Comment;
+import com.foro_hub.foro_hub.domain.model.User;
+import com.foro_hub.foro_hub.domain.model.Post;
 import com.foro_hub.foro_hub.domain.repository.CommentRepository;
 
 import org.springframework.stereotype.Repository;
@@ -48,8 +50,8 @@ public class JpaCommentRepository implements CommentRepository {
             .map(entity -> {
                 Comment comment = new Comment(
                     entity.getContent(),
-                    new com.foro_hub.domain.model.User(entity.getAuthor().getUsername(), entity.getAuthor().getEmail(), entity.getAuthor().getPassword(), null),
-                    new com.foro_hub.domain.model.Post(entity.getPost().getTitle(), entity.getPost().getContent(), null)
+                    new User(entity.getAuthor().getUsername(), entity.getAuthor().getEmail(), entity.getAuthor().getPassword(), null),
+                    new Post(entity.getPost().getTitle(), entity.getPost().getContent(), null)
                 );
                 comment.setId(entity.getId());
                 return comment;
@@ -62,8 +64,8 @@ public class JpaCommentRepository implements CommentRepository {
             .map(entity -> {
                 Comment comment = new Comment(
                     entity.getContent(),
-                    new com.foro_hub.domain.model.User(entity.getAuthor().getUsername(), entity.getAuthor().getEmail(), entity.getAuthor().getPassword(), null),
-                    new com.foro_hub.domain.model.Post(entity.getPost().getTitle(), entity.getPost().getContent(), null)
+                    new User(entity.getAuthor().getUsername(), entity.getAuthor().getEmail(), entity.getAuthor().getPassword(), null),
+                    new Post(entity.getPost().getTitle(), entity.getPost().getContent(), null)
                 );
                 comment.setId(entity.getId());
                 return comment;

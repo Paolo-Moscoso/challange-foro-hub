@@ -2,7 +2,6 @@ package com.foro_hub.foro_hub.infrastructure.config;
 
 import com.foro_hub.foro_hub.infrastructure.persistence.JpaUserRepository;
 import com.foro_hub.foro_hub.infrastructure.persistence.RoleEntity;
-import com.foro_hub.foro_hub.infrastructure.persistence.JpaUserRepository.SpringDataUserRepository;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

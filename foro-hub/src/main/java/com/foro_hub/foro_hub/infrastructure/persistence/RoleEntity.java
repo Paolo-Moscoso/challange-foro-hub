@@ -13,6 +13,12 @@ public class RoleEntity {
     @Column(unique = true, nullable = false)
     private String name; // ADMIN, USER
 
+    public RoleEntity() {}
+
+    public RoleEntity(String name) {
+        this.name = name;
+    }
+
     // Getters y setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }

@@ -8,7 +8,7 @@ import com.foro_hub.foro_hub.application.service.DeleteCommentService;
 import com.foro_hub.foro_hub.domain.model.Comment;
 import com.foro_hub.foro_hub.domain.model.Post;
 import com.foro_hub.foro_hub.domain.model.User;
-import com.foro_hub.domain.repository.PostRepository;
+import com.foro_hub.foro_hub.domain.repository.PostRepository;
 import com.foro_hub.foro_hub.domain.repository.UserRepository;
 import com.foro_hub.foro_hub.presentation.dto.CommentDTO;
 

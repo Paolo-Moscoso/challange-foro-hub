@@ -1,19 +1,16 @@
 package com.foro_hub.foro_hub.application.service;
 
-import com.foro_hub.foro_hub.foro_hub.domain.model.Comment;
-import com.foro_hub.foro_hub.foro_hub.domain.repository.CommentRepository
-
-import java.util.Optional;
+import com.foro_hub.foro_hub.domain.repository.CommentRepository;
 
 public class DeleteCommentService {
 
     private final CommentRepository commentRepository;
 
-    public Delete(CommentRepository commentRepository) {
+    public DeleteCommentService(CommentRepository commentRepository) {
         this.commentRepository = commentRepository;
     }
 
-    public Comment deleteComment(Long commentId) {
+    public void deleteComment(Long commentId) {
         commentRepository.deleteById(commentId);
     }       
 }

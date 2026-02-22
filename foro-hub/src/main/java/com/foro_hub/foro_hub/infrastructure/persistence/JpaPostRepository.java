@@ -1,6 +1,7 @@
 package com.foro_hub.foro_hub.infrastructure.persistence;
 
 import com.foro_hub.foro_hub.domain.model.Post;
+import com.foro_hub.foro_hub.domain.model.User;
 import com.foro_hub.foro_hub.domain.repository.PostRepository;
 
 import org.springframework.stereotype.Repository;
@@ -9,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-@repository
+@Repository
 public class JpaPostRepository implements PostRepository {
 
     private final SpringDataPostRepository springDataPostRepository;
@@ -46,7 +47,7 @@ public class JpaPostRepository implements PostRepository {
                 Post post = new Post(
                     entity.getTitle(),
                     entity.getContent(),
-                    new com.foro_hub.domain.model.User(
+                    new User(
                         entity.getAuthor().getUsername(),
                         entity.getAuthor().getEmail(),
                         entity.getAuthor().getPassword(),
@@ -65,7 +66,7 @@ public class JpaPostRepository implements PostRepository {
                 Post post = new Post(
                     entity.getTitle(),
                     entity.getContent(),
-                    new com.foro_hub.domain.model.User(
+                    new User(
                         entity.getAuthor().getUsername(),
                         entity.getAuthor().getEmail(),
                         entity.getAuthor().getPassword(),
