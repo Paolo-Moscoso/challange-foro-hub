@@ -6,7 +6,6 @@ import com.foro_hub.foro_hub.application.service.ListPostsService;
 import com.foro_hub.foro_hub.application.service.UpdatePostService;
 import com.foro_hub.foro_hub.application.service.DeletePostService;
 import com.foro_hub.foro_hub.domain.model.Post;
-import com.foro_hub.foro_hub.domain.model.User;
 import com.foro_hub.foro_hub.domain.repository.UserRepository;
 import com.foro_hub.foro_hub.presentation.dto.PostDTO;
 

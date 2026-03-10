@@ -1,6 +1,7 @@
 package com.foro_hub.foro_hub.infrastructure.config;
 
 import com.foro_hub.foro_hub.infrastructure.persistence.RoleEntity;
+import com.foro_hub.foro_hub.infrastructure.persistence.SpringDataUserRepository;
 import com.foro_hub.foro_hub.infrastructure.persistence.UserEntity;
 
 import org.springframework.boot.CommandLineRunner;
@@ -55,11 +56,5 @@ public class RoleInitializer implements CommandLineRunner {
         }
     }
 
-    interface SpringDataRoleRepository extends org.springframework.data.jpa.repository.JpaRepository<RoleEntity, Long> {
-        RoleEntity findByName(String name);
-    }
 
-    interface SpringDataUserRepository extends org.springframework.data.jpa.repository.JpaRepository<UserEntity, Long> {
-        UserEntity findByEmail(String email);
-    }
 }

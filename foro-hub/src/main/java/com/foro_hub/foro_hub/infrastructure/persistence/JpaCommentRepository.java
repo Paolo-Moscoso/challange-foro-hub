@@ -78,7 +78,4 @@ public class JpaCommentRepository implements CommentRepository {
         springDataCommentRepository.deleteById(id);
     }
 
-    interface SpringDataCommentRepository extends org.springframework.data.jpa.repository.JpaRepository<CommentEntity, Long> {
-        List<CommentEntity> findByPostId(Long postId);
-    }
 }

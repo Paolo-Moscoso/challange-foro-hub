@@ -84,5 +84,4 @@ public class JpaPostRepository implements PostRepository {
         springDataPostRepository.deleteById(id);
     }
 
-    interface SpringDataPostRepository extends org.springframework.data.jpa.repository.JpaRepository<PostEntity, Long> {}
 }
