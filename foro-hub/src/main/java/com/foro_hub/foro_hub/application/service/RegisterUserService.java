@@ -8,6 +8,9 @@ import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class RegisterUserService {
 
     private final UserRepository userRepository;

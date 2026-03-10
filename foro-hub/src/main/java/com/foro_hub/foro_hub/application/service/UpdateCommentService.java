@@ -5,6 +5,10 @@ import com.foro_hub.foro_hub.domain.repository.CommentRepository;
 
 import java.util.Optional;
 
+import org.springframework.stereotype.Service;
+
+
+@Service
 public class UpdateCommentService {
 
     private final CommentRepository commentRepository;

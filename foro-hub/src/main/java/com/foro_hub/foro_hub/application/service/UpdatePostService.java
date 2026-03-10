@@ -5,6 +5,9 @@ import com.foro_hub.foro_hub.domain.repository.PostRepository;
 
 import java.util.Optional;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class UpdatePostService {
 
     private final PostRepository postRepository;

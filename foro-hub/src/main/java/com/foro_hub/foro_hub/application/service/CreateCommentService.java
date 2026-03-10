@@ -1,10 +1,13 @@
 package com.foro_hub.foro_hub.application.service;
 
+import org.springframework.stereotype.Service;
+
 import com.foro_hub.foro_hub.domain.model.Comment;
 import com.foro_hub.foro_hub.domain.model.Post;
 import com.foro_hub.foro_hub.domain.model.User;
 import com.foro_hub.foro_hub.domain.repository.CommentRepository;
 
+@Service
 public class CreateCommentService {
 
     private final CommentRepository commentRepository;
